@@ -54,6 +54,7 @@ public class CaptchaServiceImpl implements CaptchaService {
 
         //保存到缓存
         setCache(uuid, captcha.text());
+
     }
 
     @Override
